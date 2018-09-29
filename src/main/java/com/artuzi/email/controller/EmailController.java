@@ -11,9 +11,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.artuzi.emai.service.IEmailService;
 import com.artuzi.email.entity.Destinatario;
 import com.artuzi.email.entity.Email;
+import com.artuzi.email.service.IEmailService;
 
 @Controller
 public class EmailController {
