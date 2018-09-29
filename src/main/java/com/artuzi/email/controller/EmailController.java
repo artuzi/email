@@ -33,11 +33,11 @@ public class EmailController {
 		email.setTemplate("EM00100");
 		
 		Destinatario destinatario1 = new Destinatario();
-		destinatario1.setEmailDestinatario("denis@artuzi.com");
+		destinatario1.setEmailDestinatario("meuusuario@gmail.com");
 		destinatario1.setEmail(email);
 
 		Destinatario destinatario2 = new Destinatario();
-		destinatario2.setEmailDestinatario("artuzi@gmail.com");
+		destinatario2.setEmailDestinatario("outroemail@gmail.com");
 		destinatario2.setEmail(email);
 
 		destinatarios.add(destinatario1);
