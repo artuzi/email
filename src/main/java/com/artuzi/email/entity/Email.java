@@ -16,6 +16,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 
 @Entity
@@ -33,6 +35,7 @@ public class Email implements Serializable{
 	String template;
 
     @Column(name = "dtsolicitacao")
+    @Temporal(TemporalType.DATE)
 	Date dtSolicitacao;
 
     @Column(name = "idagendamento")

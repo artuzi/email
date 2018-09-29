@@ -1,6 +1,7 @@
 package com.artuzi.email.controller;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class EmailController {
 		
 		Email email = new Email();
 		email.setTemplate("EM00100");
+		email.setDtSolicitacao(new Date());
 		
 		Destinatario destinatario1 = new Destinatario();
 		destinatario1.setEmailDestinatario("meuusuario@gmail.com");
